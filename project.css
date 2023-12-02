@@ -1,0 +1,73 @@
+body{
+    background-color: #1b1833;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    font-family: "Nova Square";
+}
+
+.logo{
+    max-width: 100px;
+}
+
+.menu{
+    display: flex;
+    gap: 15px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.conheca_mais{
+    height: 100vh;
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/1771572741903125825/D49869136E1D5DA74F7F0E95213A2CB8FF8FD43B/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.informacoes{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    font-family: "Pacifico";
+    color: #1b1833;
+}
+
+.informacoes h1{
+    font-size: 2rem;
+}
+
+.informacoes p{
+    font-family: "Rubik Bubbles";
+    font-size: 48px;
+}
+
+.informacoes button{
+    font-family: "Pacifico";
+    background-color: #1b1833;
+    color: white;
+    border-radius: 15px;
+    font-size: 24px;
+    padding: 2px 20px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.informacoes button:hover{
+    transform: scale(1.1);
+}
